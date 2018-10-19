@@ -1,10 +1,12 @@
-<!--<img src="{{producto.image}}">
+<!--<div *ngIf="producto">
+<img src="{{producto.image}}">
 <p>ID={{producto.id}}</p>
 <p>Nombre={{producto.name}}</p>
 <p>Precio={{producto.price}}</p>
 <p>Puntaje={{producto.score}}</p>
 <p>Descripcion={{producto.description}}</p>
 <p>Expiracion={{producto.expDate}}</p>
+</div>
 -->
 <div *ngFor="let cadaUno of todos">
   <img src="{{cadaUno.image}}" width=100px height=100px>
